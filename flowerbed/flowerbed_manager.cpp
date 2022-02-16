@@ -243,7 +243,7 @@ void solution()
     FlowerbedManager flowerbedManager;
     flowerbedManager.ReadFromFileToVector("input.txt");
 //    flowerbedManager.SortByForm();
-//    flowerbedManager.PrintVector();
+//    flowerbedManager.PrintVector(flowerbedManager.GetVectorOfFlowerbeds());
     flowerbedManager.FromVectorToMultimap();
 //    std::cout << std::endl;
 //    flowerbedManager.PrintMultimap();
@@ -254,7 +254,7 @@ void solution()
 //    std::cout << std::endl;
 //    flowerbedManager.FlowerbedWithTheBiggestAmountOfFlowers();
 //    flowerbedManager.FlowerbedsWithADefiniteFlower("daisy");
-//    flowerbedManager.FindFlowerbedByFormUsingLambdas("rhombus");
+//     flowerbedManager.FindFlowerbedByFormUsingLambdas(RHOMBUS);
 //    flowerbedManager.FindFlowerbedsWithADefiniteNumberOfFlowers(6);
 //    flowerbedManager.NumberOfFlowersOnCircleFlowerbeds();
 //    flowerbedManager.FindFlowerbedByFormUsingFunctors(flowerbedManager, SQUARE);
